@@ -1,0 +1,10 @@
+Do a website for OYAN Production.
+Website must be the media company .
+Website must be the one page website.
+If you add the menu to the website use the homepage sections names and make the menu link scroll to.
+For the architecture of the website use the Architecture.md file.
+Use the logo.svg file for the logo of website. You can change and align color of logo for the websites styleguide.
+Analyze the website https://www.act4.is/#projects and take the styleguide from there. 
+Dont copy same of website style. Make a you can make a changes on style but wibe must be same.
+I have added the screenshot to screens folder. Use it for the styleguide also.
+I want smooth scrolling on website. When user click on menu item, it should scroll to the section with smooth animation.

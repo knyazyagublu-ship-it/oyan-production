@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OYAN Production</title>
+    <meta name="description"
+        content="OYAN Production is a creative film studio dedicated to crafting powerful visual stories.">
+    <!-- Google Fonts: Anton for display, Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Fixed Top Header Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#hero" class="brand-link">
+                <img src="Logo.svg" alt="OYAN Production Logo" class="brand-logo">
+            </a>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay (Hidden by default) -->
+    <div class="mobile-nav-overlay">
+        <button class="menu-close" aria-label="Close Menu">&times;</button>
+        <ul>
+            <li><a href="#hero">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#team">THE TEAM</a></li>
+            <li><a href="#what-we-do">WHAT WE DO</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="section-hero">
+            <div class="video-container">
+                <video autoplay loop muted playsinline class="bg-video">
+                    <source src="Video/hero2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">WE ARE A PRODUCTION COMPANY<br>FOCUSED ON PRODUCING<br>HIGH-QUALITY MOVIES AND
+                    SHOWS</h1>
+                <a href="#footer" class="btn-primary">CONTACT US</a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="section-about">
+            <div class="container">
+                <h2 class="section-title">ABOUT US</h2>
+                <div class="text-block">
+                    <p>OYAN Production is a creative film studio dedicated to crafting powerful visual stories. We
+                        specialize in cinematic storytelling, branded content, commercials, and short films that connect
+                        emotionally and leave lasting impact.</p>
+                    <p>From concept development to final cut, our team combines strategy, creativity, and technical
+                        precision to deliver high-quality productions tailored to each project's vision. We believe
+                        every frame should serve a purpose and every story should resonate.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Team Section -->
+        <section id="team" class="section-team">
+            <div class="container">
+                <h2 class="section-title">THE TEAM</h2>
+                <div class="team-grid">
+                    <!-- Team Member 1 -->
+                    <div class="team-card">
+                        <div class="team-image-wrapper">
+                            <img src="Team/elchin.jpg" alt="Elchin Musaoghlu" class="team-image">
+                        </div>
+                        <h3 class="team-name">ELCHIN MUSAOGHLU</h3>
+                        <p class="team-role">CO-FOUNDER, DIRECTOR, PRODUCER</p>
+                        <p class="team-bio">Elchin Musaoghlu is an Azerbaijani film director known for his distinctive
+                            cinematic language and emotionally layered storytelling. His work often explores human
+                            resilience, social realities, and intimate character journeys. With a strong visual style
+                            and festival-recognized projects, he has become one of the notable contemporary voices in
+                            Azerbaijani cinema.</p>
+                    </div>
+
+                    <!-- Team Member 2 -->
+                    <div class="team-card">
+                        <div class="team-image-wrapper">
+                            <img src="Team/adam-beyer.png" alt="Adam Beyer" class="team-image">
+                        </div>
+                        <h3 class="team-name">ADAM BEYER</h3>
+                        <p class="team-role">CO-FOUNDER, EXECUTIVE PRODUCER</p>
+                        <p class="team-bio">Adam Beyer is an experienced film producer with a strong background in
+                            international co-productions and project development. He has worked on a range of feature
+                            films and documentaries, bringing a strategic and business-oriented approach to creative
+                            projects. His expertise lies in navigating the complexities of film finance, distribution,
+                            and festival strategies, helping to bring independent stories to global audiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What We Do Section -->
+        <section id="what-we-do" class="section-what-we-do dark-section">
+            <div class="container">
+                <div class="wwd-layout">
+                    <div class="wwd-title-col">
+                        <h2 class="section-title text-white">WHAT WE DO</h2>
+                    </div>
+                    <div class="wwd-text-col text-block">
+                        <p class="text-white">OYAN Production is a creative film studio dedicated to crafting powerful
+                            visual stories. We specialize in cinematic storytelling, branded content, commercials, and
+                            short films that connect emotionally and leave lasting impact.</p>
+                        <p class="text-white">From concept development to final cut, our team combines strategy,
+                            creativity, and technical precision to deliver high-quality productions tailored to each
+                            project's vision. We believe every frame should serve a purpose and every story should
+                            resonate.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-projects">
+            <div class="container">
+                <h2 class="section-title">PROJECTS</h2>
+                <div class="project-list">
+                    <!-- Project 1 -->
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">NABAT</h3>
+                            <span class="project-year">2014</span>
+                        </div>
+                        <p class="project-desc">"Nabat" is one of Musaoghlu's most internationally recognized films. Set
+                            during the Nagorno-Karabakh war, the story follows an elderly woman who refuses to leave her
+                            deserted village. Through minimal dialogue and powerful imagery, the film explores themes of
+                            loneliness, resilience, and human endurance. It was selected as Azerbaijan's submission for
+                            the Academy Awards in the Best Foreign Language Film category.</p>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">THE 40TH DOOR</h3>
+                            <span class="project-year">2009</span>
+                        </div>
+                        <p class="project-desc">"The 40th Door" tells the story of a young boy growing up in post-war
+                            Baku. The film portrays childhood struggles, poverty, and dreams within a harsh social
+                            reality. With its poetic yet raw storytelling, the film gained international festival
+                            attention and established Musaoghlu as a strong voice in Azerbaijani cinema.</p>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">OVSUNCHU (THE SORCERER)</h3>
+                            <span class="project-year">2002</span>
+                        </div>
+                        <p class="project-desc">"Ovsunchu" is a mystical drama blending folklore elements with
+                            psychological tension. The film explores tradition, belief, and rural life through symbolic
+                            narrative and atmospheric cinematography. It became one of Musaoghlu's early notable works,
+                            showcasing his distinctive visual style.</p>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">YALAN</h3>
+                            <span class="project-year">2006</span>
+                        </div>
+                        <p class="project-desc">"Yalan" (meaning "Lie") focuses on moral conflict and personal choices
+                            within contemporary Azerbaijani society. The film reflects on truth, deception, and social
+                            pressure, presenting emotionally layered characters and subtle dramatic tension.</p>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3 class="project-title">SILHOUETTE</h3>
+                            <span class="project-year">2005</span>
+                        </div>
+                        <p class="project-desc">"Silhouette" is a psychological drama centered on identity and internal
+                            struggle. Through carefully composed frames and restrained storytelling, Musaoghlu examines
+                            personal transformation and human vulnerability.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="section-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>OYAN PRODUCTION</h2>
+                </div>
+                <div class="footer-address">
+                    <p>Baku Creative District</p>
+                    <p>Nizami Street 45</p>
+                    <p>Baku, Azerbaijan AZ1000</p>
+                </div>
+                <div class="footer-contact">
+                    <p><a href="tel:+994501234567">+994 50 123 45 67</a></p>
+                    <p><a href="mailto:info@oyanproduction.com">info@oyanproduction.com</a></p>
+                    <p><a href="http://www.oyanproduction.com" target="_blank">www.oyanproduction.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
