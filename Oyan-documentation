@@ -8,3 +8,5 @@ Analyze the website https://www.act4.is/#projects and take the styleguide from t
 Dont copy same of website style. Make a you can make a changes on style but wibe must be same.
 I have added the screenshot to screens folder. Use it for the styleguide also.
 I want smooth scrolling on website. When user click on menu item, it should scroll to the section with smooth animation.
+Make the website mobile friendly.
+Use only architecture what i provided in Architecture.md file. Dont add or remove any section and informations. 
